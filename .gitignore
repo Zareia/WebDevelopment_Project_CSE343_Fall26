@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# builds
+dist/
+coverage/
+*.tsbuildinfo
+
+# env (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# uploads stored by the server at runtime
+server/uploads/
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
